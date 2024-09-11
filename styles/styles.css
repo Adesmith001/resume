@@ -553,4 +553,98 @@ img {
 }
 .po-con-left:active {
   top: 10px;
-}/*# sourceMappingURL=styles.css.map */
+}
+.divider{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 720px) {
+ html, body {
+  overflow-x: hidden;
+ }
+  .photo {
+    margin-left: 70px;
+  }
+  .title{
+    margin-left: 70px;
+    top: 100px;
+  }
+  .info{
+    margin-left: 10px;
+    top: 200px;
+  }
+  .languages{
+    padding-top: 140px;
+    margin-left: 20px;
+  }
+  .divider{
+    display: none;
+  }
+  .left, .right{
+    display: block;
+  }
+  .right{
+    margin-left: 30px;
+    padding-top: 500px ;
+  }
+  .ex-con-left, .ex-con-leftx, .ex-con-right, .ex-con-rightx{
+    margin-left: 0px;
+  }
+  .education{
+    margin-top: 150px;
+  }
+  .ed-con-left, .ed-con-right{
+    margin-left: 0px;
+  }
+  .ed-con-right h3{
+    font-size: 18px;
+  }
+  .ed-con-right h5{
+    font-size: 18px;
+  }
+  .ed-con-right span{
+    font-size: 14px;
+  }
+  .ed-con-right p{
+    max-width: 280px;
+  }
+  .ex-con-right h3{
+    font-size: 18px;
+  }
+  .ex-con-right h5{
+    font-size: 18px;
+  }
+  .ex-con-right span{
+    font-size: 12px;
+  }
+  .ex-con-right p{
+    max-width: 280px;
+  }
+  .ex-con-rightx h3{
+    font-size: 18px;
+  }
+  .ex-con-rightx h5{
+    font-size: 18px;
+  }
+  .ex-con-rightx span{
+    font-size: 14px;
+  }
+  .ex-con-rightx p{
+    max-width: 280px;
+  }
+  .skills{
+    padding-top: 330px;
+  }
+  .skill-con-left, .skill-con-right{
+    width: 200px;
+  }
+  .portfolio{
+    padding-top: 400px;
+  }
+  .po-con-left, .po-con-middle, .po-con-right{
+    width: 100px;
+  }
+  .con-title{
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
